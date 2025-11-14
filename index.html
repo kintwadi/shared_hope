@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shared Hope - Sowing love; reaping change.</title>
+    <title>Share Hopes - Sowing love; reaping change.</title>
     <!-- External stylesheet -->
     <link rel="stylesheet" href="tagline_font.css">
     <link rel="stylesheet" href="styles.css">
@@ -43,23 +43,29 @@
 
     <header>
         <div class="logo">
-            <img src="logo.png" class="logo-img" alt="Shared Hope logo" />
-            <span class="logo-text">SHARED HOPE</span>
+            <img src="images/logo3.png" class="logo-img" alt="Shared Hope logo" />
+            <span class="logo-text">SHARE HOPES</span>
         </div>
         <p class="tagline">Sowing love; reaping change.</p>
     </header>
 
     <main>
         <section class="hero">
-            <h1 id="hero-title">Planting Seeds of Hope, Together.</h1>
-            <p id="hero-subtitle">Sowing love, reaping change—we offer free assistance to those in need.</p>
-            <a href="#" class="btn" id="get-involved-btn">Get Involved</a>
+            <video autoplay muted loop playsinline class="hero-video" id="hero-video" poster="images/food_distribution.png">
+                <source src="bg_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1 id="hero-title">Planting Seeds of Hope, Together.</h1>
+                <p id="hero-subtitle">Sowing love, reaping change—we offer free assistance to those in need.</p>
+                <a href="#" class="btn" id="get-involved-btn">Get Involved</a>
+            </div>
         </section>
 
         <section class="about">
             <h2 id="about-title">About Us</h2>
             <div class="about-content">
-                <p id="about-content">At Shared Hope, we believe that every act of kindness can grow into lasting change. United by compassion and a commitment to community, we provide practical support to individuals and families facing hardship. Our mission is simple, to serve with empathy, uplift with dignity, and build a shared future rooted in hope.</p>
+                <p id="about-content">At Share Hopes, we believe that every act of kindness can grow into lasting change. United by compassion and a commitment to community, we provide practical support to individuals and families facing hardship. Our mission is simple, to serve with empathy, uplift with dignity, and build a shared future rooted in hope.</p>
             </div>
         </section>
 
@@ -94,6 +100,13 @@
                     <h3 id="hospital-title">Hospital Aid</h3>
                     <p id="hospital-desc">Supplying healthcare facilities with needed items.</p>
                 </div>
+                <div class="service-card">
+                    <div class="service-image-box">
+                        <img class="service-image" src="images/icons8-more-48.png" alt="Hospital aid" loading="lazy" />
+                    </div>
+                    <h3 id="plus-title">Plus Services</h3>
+                     <p id="plus-desc">Additional support services.</p>
+                </div>
             </div>
         </section>
 
@@ -112,21 +125,21 @@
                     </svg>
                 </div>
                 <div class="footer-card-items">
-                    <a class="footer-item" href="tel:+4917687820948" title="Call +49 176 878 20948">+49 176 878 20948</a>
+                    <a class="footer-item" href="tel:+49 152185355929" title="Call +49 1521 8535 5929">+49 176 878 20948</a>
                     <span class="footer-sep">•</span>
-                    <a class="footer-item" href="tel:+244923701518" title="Call +244 923 701 518">+244 923 701 518</a>
+                    <a class="footer-item" href="tel:+34 610 6073 95" title="Call +34 610 6073 95">+34 610 6073 95</a>
                     <span class="footer-sep">•</span>
-                    <a class="footer-item" href="mailto:info@shared-hope.org" title="Email info@shared-hope.org">
+                    <a class="footer-item" href="mailto:info@sharehopes.org" title="Email info@sharehopes.org">
                         <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M3 5h18v14H3z"></path>
                             <path d="M3 5l9 7 9-7"></path>
                         </svg>
-                        info@shared-hope.org
+                        info@sharehopes.org
                     </a>
                 </div>
             </div>
             <div class="footer-social">
-                <span class="footer-social-label">Follow us</span>
+                <span class="footer-social-label" id="follow-us">Follow us</span>
                 <div class="social-icons">
                     <a href="#" class="social-icon" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">
                         <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -145,7 +158,7 @@
                     </a>
                 </div>
             </div>
-            <div class="footer-copy">© 2025 Shared Hope</div>
+            <div class="footer-copy" id="copyright">© 2025 Share Hopes</div>
         </div>
     </footer>
 

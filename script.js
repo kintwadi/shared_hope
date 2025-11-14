@@ -1,27 +1,31 @@
 // Translations data
 const translations = {
   "en": {
-    "hero-title": "Planting seeds of hope, together.",
-    "hero-subtitle": "Sowing love, reaping change—we offer free assistance to those in need.",
-    "get-involved-btn": "Get involved",
-    "about-title": "About us",
-    "about-content": "At Shared Hope, we believe that every act of kindness can grow into lasting change. United by compassion and a commitment to community, we provide practical support to individuals and families facing hardship. Our mission is simple, to serve with empathy, uplift with dignity, and build a shared future rooted in hope.",
-    "services-title": "What we do",
-    "food-title": "Food distribution",
-    "food-desc": "Nutritious meals and groceries for those in need.",
-    "meals-title": "Hot meals for the homeless",
-    "meals-desc": "Freshly prepared food served with care.",
-    "supplies-title": "School supplies",
-    "supplies-desc": "Essential materials to help students thrive.",
-    "hospital-title": "Hospital aid",
-    "hospital-desc": "Supplying healthcare facilities with needed items.",
-    "contact-title": "Get involved",
-    "contact-quote": "'You shall love your neighbor as yourself'",
-    "phone": "+49 176 878 20948 / +244 923 701 518",
-    "email": "info@shared-hope.org",
-    "website": "www.shared-hope.org",
-    "contact-btn": "Contact us"
-  },
+        "hero-title": "Planting seeds of hope, together.",
+        "hero-subtitle": "Sowing love, reaping change—we offer free assistance to those in need.",
+        "get-involved-btn": "Get involved",
+        "about-title": "About us",
+        "about-content": "At Shared Hope, we believe that every act of kindness can grow into lasting change. United by compassion and a commitment to community, we provide practical support to individuals and families facing hardship. Our mission is simple, to serve with empathy, uplift with dignity, and build a shared future rooted in hope.",
+        "services-title": "What we do",
+        "food-title": "Food distribution",
+        "food-desc": "Nutritious meals and groceries for those in need.",
+        "meals-title": "Hot meals for the homeless",
+        "meals-desc": "Freshly prepared food served with care.",
+        "supplies-title": "School supplies",
+        "supplies-desc": "Essential materials to help students thrive.",
+        "hospital-title": "Hospital aid",
+        "hospital-desc": "Supplying healthcare facilities with needed items.",
+        "plus-title": "Plus services",
+        "plus-desc": "Additional support services.",
+        "contact-title": "Get involved",
+        "contact-quote": "'You shall love your neighbor as yourself'",
+        "phone": "+49 176 878 20948 / +244 923 701 518",
+        "email": "info@shared-hope.org",
+        "website": "www.shared-hope.org",
+        "contact-btn": "Contact us",
+        "follow-us": "Follow us",
+        "copyright": "© 2025 Share Hopes"
+    },
   "de": {
     "hero-title": "Samen der Hoffnung zusammen pflanzen.",
     "hero-subtitle": "Liebe säen, Wandel ernten – wir bieten kostenlose Hilfe für Bedürftige an.",
@@ -37,41 +41,49 @@ const translations = {
     "supplies-desc": "Wichtige Materialien, um Schülern zum Erfolg zu verhelfen.",
     "hospital-title": "Krankenhausunterstützung",
     "hospital-desc": "Versorgung von medizinischen Einrichtungen mit benötigten Artikeln.",
+    "plus-title": "Plus-Dienstleistungen",
+    "plus-desc": "Zusätzliche Unterstützungsservices.",
     "contact-title": "Mitmachen",
     "contact-quote": "'Du sollst deinen Nächsten lieben wie dich selbst'",
     "phone": "+49 176 878 20948 / +244 923 701 518",
     "email": "info@shared-hope.org",
     "website": "www.shared-hope.org",
-    "contact-btn": "Kontaktieren Sie uns"
+    "contact-btn": "Kontaktieren Sie uns",
+    "follow-us": "Folgen Sie uns",
+    "copyright": "© 2025 Share Hopes"
   },
   "es": {
-    "hero-title": "Sembrando semillas de esperanza, juntos.",
-    "hero-subtitle": "Sembrando amor, cosechando cambio—ofrecemos ayuda gratuita a quienes lo necesitan.",
-    "get-involved-btn": "Participa",
+    "hero-title": "Plantando semillas de esperanza juntos.",
+    "hero-subtitle": "Sembrando amor, cosechando cambio – ofrecemos ayuda gratuita a quienes lo necesitan.",
+    "get-involved-btn": "Involúcrate",
     "about-title": "Sobre nosotros",
-    "about-content": "En Shared Hope, creemos que cada acto de bondad puede convertirse en un cambio duradero. Unidos por la compasión y el compromiso con la comunidad, brindamos apoyo práctico a personas y familias que enfrentan dificultades. Nuestra misión es sencilla: servir con empatía, elevar con dignidad y construir un futuro compartido arraigado en la esperanza.",
+    "about-content": "En Shared Hope, creemos que cada acto de bondad puede convertirse en un cambio sostenible. Unidos por la compasión y el compromiso con la comunidad, brindamos apoyo práctico a individuos y familias que enfrentan dificultades. Nuestra misión es simple: servir con empatía, construir con dignidad y crear un futuro compartido basado en la esperanza.",
     "services-title": "Lo que hacemos",
     "food-title": "Distribución de alimentos",
-    "food-desc": "Comidas nutritivas y provisiones para quienes lo necesitan.",
-    "meals-title": "Comidas calientes para los sin hogar",
+    "food-desc": "Comidas nutritivas y alimentos para quienes lo necesitan.",
+    "meals-title": "Comida caliente para personas sin hogar",
     "meals-desc": "Comida recién preparada servida con cuidado.",
     "supplies-title": "Suministros escolares",
-    "supplies-desc": "Materiales esenciales para ayudar a los estudiantes a prosperar.",
-    "hospital-title": "Ayuda hospitalaria",
-    "hospital-desc": "Suministro de artículos necesarios a las instalaciones de atención médica.",
-    "contact-title": "Participa",
+    "supplies-desc": "Materiales esenciales para ayudar a los estudiantes a tener éxito.",
+    "hospital-title": "Apoyo hospitalario",
+    "hospital-desc": "Provisión de artículos necesarios a instalaciones médicas.",
+    "plus-title": "Servicios Plus",
+    "plus-desc": "Servicios de apoyo adicionales.",
+    "contact-title": "Involúcrate",
     "contact-quote": "'Amarás a tu prójimo como a ti mismo'",
     "phone": "+49 176 878 20948 / +244 923 701 518",
     "email": "info@shared-hope.org",
     "website": "www.shared-hope.org",
-    "contact-btn": "Contáctenos"
+    "contact-btn": "Contáctanos",
+    "follow-us": "Síguenos",
+    "copyright": "© 2025 Share Hopes"
   },
   "pt": {
     "hero-title": "Plantando sementes de esperança, juntos.",
     "hero-subtitle": "Semeando amor, colhendo mudança—oferecemos assistência gratuita às pessoas necessitadas.",
     "get-involved-btn": "Envolva-se",
     "about-title": "Sobre nós",
-    "about-content": "Na Shared Hope, acreditamos que todo ato de bondade pode crescer e se tornar uma mudança duradoura. Unidos pela compaixão e pelo compromisso com a comunidade, oferecemos apoio prático a indivíduos e famílias que enfrentam dificuldades. Nossa missão é simples: servir com empatia, elevar com dignidade e construir um futuro compartilhado enraizado na esperança.",
+    "about-content": "Na Shared Hope, acreditamos que todo ato de bondade pode crescer e se tornar uma mudança duradoura. Unidos pela compaixão e pelo compromisso com a comunidade, oferecemos apoio prático a indivíduos e famílias que enfrentam dificuldades. Nossa missión é simples: servir com empatia, elevar com dignidade e construir um futuro compartilhado enraizado na esperança.",
     "services-title": "O que fazemos",
     "food-title": "Distribuição de alimentos",
     "food-desc": "Refeições nutritivas e mantimentos para quem precisa.",
@@ -81,12 +93,16 @@ const translations = {
     "supplies-desc": "Materiais essenciais para ajudar os alunos a prosperar.",
     "hospital-title": "Ajuda hospitalar",
     "hospital-desc": "Fornecimento de itens necessários às instalações de saúde.",
+    "plus-title": "Serviços adicionais",
+    "plus-desc": "Serviços de apoio adicionais.",
     "contact-title": "Envolva-se",
     "contact-quote": "'Amarás ao teu próximo como a ti mesmo'",
     "phone": "+49 176 878 20948 / +244 923 701 518",
     "email": "info@shared-hope.org",
     "website": "www.shared-hope.org",
-    "contact-btn": "Entre em contato"
+    "contact-btn": "Entre em contato",
+    "follow-us": "Siga-nos",
+    "copyright": "© 2025 Share Hopes"
   }
 };
 
@@ -101,11 +117,7 @@ function updateLanguage(lang) {
     if (el) el.textContent = value;
   }
 
-  // sync select value if present
-  const select = document.getElementById('language-select');
-  if (select && select.value !== lang) {
-    select.value = lang;
-  }
+  // Note: No select element exists - using custom image-based dropdown
 
   // update active button styles
   document.querySelectorAll('.language-selector button').forEach(btn => {
